@@ -99,6 +99,7 @@ begin
 	-----------------------------------------------------	
 	
 	-- Test Plan Process --------------------------------
+
 	test_process : process 
 	begin
 		-- clock should have good initial state, so let it divide at least twice
