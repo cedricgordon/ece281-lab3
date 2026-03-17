@@ -128,8 +128,10 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/src/thunderbird_fsm_tb.vhd">
+      <File Path="$PSRCDIR/sim_1/imports/src/thunderbird_fsm_tb.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/src/thunderbird_fsm_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1773599959"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
